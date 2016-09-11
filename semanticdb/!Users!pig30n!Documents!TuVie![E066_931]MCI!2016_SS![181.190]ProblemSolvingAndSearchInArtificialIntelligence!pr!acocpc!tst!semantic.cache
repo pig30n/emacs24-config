@@ -1,0 +1,27 @@
+;; Object tst/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "tst/"
+  :tables
+  (list
+    (semanticdb-table "graph_tst.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("glib-2.0/glib.h" include (:system-flag t) nil [90 116])
+            ("../src/graph.h\"" include nil nil [117 143])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [165 174])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [175 187]))                  
+                :type "int")
+                nil [156 542]))          
+      :file "graph_tst.c"
+      :pointmax 543
+      :fsize 541
+      :lastmodtime '(22483 3457 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!pig30n!Documents!TuVie![E066_931]MCI!2016_SS![181.190]ProblemSolvingAndSearchInArtificialIntelligence!pr!acocpc!tst!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

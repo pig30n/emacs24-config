@@ -1,0 +1,37 @@
+;; Object test-project/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "test-project/"
+  :tables
+  (list
+    (semanticdb-table "makefile"
+      :major-mode 'makefile-bsdmake-mode
+      :tags 
+        '( ("PR" variable (:default-value ("test-project")) nil [127 145])
+            ("SHELL" variable (:default-value ("/bin/bash")) nil [145 163])
+            ("OBJECTS" variable nil nil [163 173])
+            ("LIBS" variable (:default-value ("glib-2.0")) nil [173 189])
+            ("DFLAGS" variable (:default-value ("-g")) nil [189 201])
+            ("TSTDIR" variable (:default-value ("tst/")) nil [201 215])
+            ("SRCDIR" variable (:default-value ("src/")) nil [215 229])
+            ("DOCDIR" variable (:default-value ("doc/")) nil [229 243])
+            ("CFLAGS" variable (:default-value ("-pedantic-errors" "${DFLAGS}" "-Wall" "-std=gnu99" "${OPT}" "-I${SRCDIR}" "`pkg-config --cflags --libs ${LIBS}`")) nil [243 352])
+            ("OPT" variable (:default-value ("-O0")) nil [352 362])
+            ("CC" variable (:default-value ("gcc")) nil [362 371])
+            (".PHONY" function (:arguments ("doc" "all" "clean" "help")) nil [372 399])
+            ("all" function (:arguments ("${PR}" "test")) nil [467 483])
+            ("${PR}" function (:arguments ("${SRCDIR}*.c")) nil [527 573])
+            ("test" function (:arguments ("$(patsubst %.c,%.log,$(wildcard ${TSTDIR}*.c))")) nil [627 680])
+            ("${TSTDIR}" function (:arguments ("${TSTDIR}%.c")) nil [681 736])
+            ("${TSTDIR}" function (:arguments ("${TSTDIR}%.out")) nil [737 808])
+            ("doc" function nil nil [869 901])
+            ("dist" function nil nil [962 1034])
+            ("help" function nil nil [1079 1174])
+            ("clean" function nil nil [1229 1380]))          
+      :file "makefile"
+      :pointmax 1380
+      :fsize 1379
+      :lastmodtime '(22485 28364 0 0)
+      :unmatched-syntax '((shell-command 1237 . 1379) (bol 1236 . 1236))))
+  :file "!Users!pig30n!Projects!test-project!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

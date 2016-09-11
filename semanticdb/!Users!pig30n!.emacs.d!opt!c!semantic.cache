@@ -1,0 +1,125 @@
+;; Object c/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "c/"
+  :tables
+  (list
+    (semanticdb-table "setup-c.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("c-packages" variable
+               (:constant-flag t
+                :default-value (quote (anzu srefactor company duplicate-thing ggtags helm helm-gtags helm-projectile helm-swoop clean-aindent-mode comment-dwim-2 dtrt-indent ws-butler iedit yasnippet skeletor smartparens projectile volatile-highlights undo-tree zygospore)))
+                nil [21 381])
+            ("install-packages" function (:user-visible-flag t) nil [383 635])
+            ("install-packages" code nil nil [637 655])
+            ("setq" code nil nil [761 797])
+            ("add-to-list" code nil nil [799 842])
+            ("setup-srefactor" include nil nil [844 870])
+            ("setup-auto-insert" include nil nil [871 899])
+            ("setup-helm" include nil nil [900 921])
+            ("setup-helm-gtags" include nil nil [922 949])
+            ("setup-cedet" include nil nil [977 999])
+            ("setup-editing" include nil nil [1000 1024])
+            ("windmove-default-keybindings" code nil nil [1026 1056])
+            ("company" include nil nil [1248 1266])
+            ("add-hook" code nil nil [1267 1315])
+            ("delete" code nil nil [1316 1359])
+            ("define-key" code nil nil [1360 1410])
+            ("define-key" code nil nil [1411 1463])
+            ("add-to-list" code nil nil [1612 1662])
+            ("add-hook" code nil nil [1705 1750])
+            ("setq" code nil nil [2523 2578])
+            ("global-set-key" code nil nil [2580 2628])
+            ("global-set-key" code nil nil [2731 2778])
+            ("add-hook" code nil nil [2837 2923])
+            ("setq-default" code nil nil [2959 2994])
+            ("setq-default" code nil nil [3055 3081])
+            ("global-set-key" code nil nil [3098 3318])
+            ("setq" code nil nil [3333 3492])
+            ("clean-aindent-mode" include nil nil [3525 3554])
+            ("add-hook" code nil nil [3555 3601])
+            ("dtrt-indent" include nil nil [3627 3649])
+            ("dtrt-indent-mode" code nil nil [3650 3670])
+            ("ws-butler" include nil nil [3694 3714])
+            ("add-hook" code nil nil [3715 3757])
+            ("yasnippet" include nil nil [3781 3801])
+            ("yas-global-mode" code nil nil [3802 3821])
+            ("smartparens-config" include nil nil [3847 3876])
+            ("setq" code nil nil [3877 3913])
+            ("setq" code nil nil [3914 3953])
+            ("setq" code nil nil [3954 3993])
+            ("sp-use-paredit-bindings" code nil nil [3994 4019])
+            ("show-smartparens-global-mode" code nil nil [4021 4054])
+            ("smartparens-global-mode" code nil nil [4055 4082])
+            ("projectile" include nil nil [4108 4129])
+            ("projectile-global-mode" code nil nil [4130 4154])
+            ("setq" code nil nil [4155 4189])
+            ("helm-projectile" include nil nil [4191 4217])
+            ("helm-projectile-on" code nil nil [4218 4238])
+            ("setq" code nil nil [4239 4280])
+            ("setq" code nil nil [4281 4321])
+            ("global-set-key" code nil nil [4344 4413])
+            ("global-set-key" code nil nil [4427 4478])
+            ("global-set-key" code nil nil [4479 4531])
+            ("global-set-key" code nil nil [4532 4581])
+            ("global-set-key" code nil nil [4582 4633])
+            ("add-to-list" code nil nil [4646 4696])
+            ("semantic-add-system-include" code nil nil [4710 4754])
+            ("semantic-add-system-include" code nil nil [4755 4805])
+            ("global-set-key" code nil nil [4816 4861])
+            ("set-terminal-coding-system" code nil nil [4875 4910])
+            ("set-keyboard-coding-system" code nil nil [4911 4946])
+            ("prefer-coding-system" code nil nil [4947 4976])
+            ("doc-mode" include nil nil [4990 5009])
+            ("add-hook" code nil nil [5010 5050])
+            ("setup-c" package nil nil [5244 5262]))          
+      :file "setup-c.el"
+      :pointmax 5263
+      :fsize 5310
+      :lastmodtime '(22485 53636 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-auto-insert.el"
+      :file "setup-auto-insert.el"
+      :fsize 1627
+      :lastmodtime '(22485 21263 0 0))
+    (semanticdb-table "setup-helm.el"
+      :file "setup-helm.el"
+      :fsize 3979
+      :lastmodtime '(22485 20426 0 0))
+    (semanticdb-table "setup-helm-gtags.el"
+      :file "setup-helm-gtags.el"
+      :fsize 1182
+      :lastmodtime '(22485 20426 0 0))
+    (semanticdb-table "setup-cedet.el"
+      :file "setup-cedet.el"
+      :fsize 534
+      :lastmodtime '(22485 20426 0 0))
+    (semanticdb-table "setup-editing.el"
+      :file "setup-editing.el"
+      :fsize 9982
+      :lastmodtime '(22485 20426 0 0))
+    (semanticdb-table "doc-mode.el"
+      :file "doc-mode.el"
+      :fsize 35912
+      :lastmodtime '(22485 20689 0 0))
+    (semanticdb-table "setup-srefactor.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("srefactor" include nil nil [752 772])
+            ("srefactor-lisp" include nil nil [773 798])
+            ("semantic-mode" code nil nil [843 860])
+            ("define-key" code nil nil [894 960])
+            ("define-key" code nil nil [961 1029])
+            ("global-set-key" code nil nil [1030 1087])
+            ("global-set-key" code nil nil [1088 1148])
+            ("global-set-key" code nil nil [1149 1210])
+            ("global-set-key" code nil nil [1211 1273])
+            ("setup-srefactor" package nil nil [1276 1302]))          
+      :file "setup-srefactor.el"
+      :pointmax 1336
+      :fsize 1335
+      :lastmodtime '(22485 53639 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!pig30n!.emacs.d!opt!c!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
